@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="LibraryManagementSystemDB" Class="DataClasses1DataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=DESKTOP-52FDBMD\MSSQLSERVER01;Initial Catalog=LibraryManagementSystemDB;Integrated Security=True" SettingsObjectName="LibraryManagementSystem.Properties.Settings" SettingsPropertyName="LibraryManagementSystemDBConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.RegisterDB" Member="RegisterDBs">
+    <Type Name="RegisterDB">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Register_Type" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="First_Name" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Last_Name" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Email" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="User_ID" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Password" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Member="Phone_Number" Type="System.String" CanBeNull="false" />
+    </Type>
+  </Table>
+</Database>
